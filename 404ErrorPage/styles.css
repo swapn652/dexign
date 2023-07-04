@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #B75CFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main{
+    height: 300px;
+    width: 500px;
+    background-color: #FF77F1;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 70px;
+    margin: 0;
+    margin-top: 50px
+}
+
+p{
+    margin: 0;
+    margin-top: 20px ;
+}
+
+p > a {
+    font-style: italic;
+    color: white;
+}
