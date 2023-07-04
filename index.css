@@ -18,3 +18,7 @@ body{
     margin: auto;
     gap: 20px;
 }
+
+a iframe {
+    pointer-events: none;
+}
